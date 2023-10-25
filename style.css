@@ -60,8 +60,13 @@ body{
     margin: 1rem 0 ;
     font-size: 20px;
     color: var(--white);
+    cursor: pointer;
 
 }
+.container h1:hover{
+    color: var(--cyan);
+}
+
 .container p{
     font-size: 18px;
     color: var(--softblue);
@@ -122,6 +127,10 @@ body{
 }
 span{
     color: #ffffffb4;
+    cursor: pointer;
+}
+.end span:hover{
+    color: var(--cyan);
 }
 
 
